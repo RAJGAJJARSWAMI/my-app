@@ -36,9 +36,10 @@
 		    <artifactId>poi-ooxml</artifactId>
 		    <version>5.2.0</version>
 		</dependency>
-	</dependency>
+	</dependencies>
 	<properties>
    		<maven.compiler.source>*</maven.compiler.source>
    		<maven.compiler.target>*</maven.compiler.target>
  	</properties>
+	
 </project>
