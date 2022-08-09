@@ -8,6 +8,7 @@ pipeline {
     stage("Maven Build"){
       steps{
         sh "mvn clean package"
+        echo "hello"
       }
     }
     stage("Deploy To Dev"){
